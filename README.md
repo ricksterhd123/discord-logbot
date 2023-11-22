@@ -31,4 +31,4 @@ It also exports a server-side function `outputDiscordLog` for use in other scrip
 ...
 ```
 
-4. Place resource in server `resources`` folder and start the resource
+4. Place resource in server `resources` folder and start the resource
