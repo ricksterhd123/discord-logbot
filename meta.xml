@@ -1,0 +1,25 @@
+<meta>
+    <info author="exile" version="0.2.0" description="Log bot for discord" type="script"/>
+	<min_mta_version server="1.5.4-9.11413" client="1.5.4" />
+    <script src="server.lua" type="server"/>
+
+    <export function="outputDiscordLog" type="server"/>
+
+    <settings>
+        <setting 
+            name="*BatchSize"
+            value="[5]"
+            desc="Number of messages in a batch sent to discord"
+        />
+        <setting 
+            name="*WebhookURL" 
+            value=""
+            desc="Discord webhook URL"
+        />
+        <setting 
+            name="*CensoredWords" 
+            value="" 
+            desc="A list of words, e.g. 'fuck, shit' which get censored e.g. '****, ****' before sent to discord"
+        />
+    </settings>
+</meta>
